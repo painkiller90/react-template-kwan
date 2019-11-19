@@ -1,13 +1,13 @@
 {
     "name": "react-template-kwan",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Basic react, webpack & babel boilerplate",
     "main": "index.js",
     "scripts": {
         "dev": "cross-env NODE_ENV=development webpack-dev-server --progress",
         "build": "cross-env NODE_ENV=production webpack --progress"
     },
-    "author": "antonio.1avp@gmail.com",
+    "author": "Antonio Aguilar <antonio.1avp@gmail.com>",
     "license": "ISC",
     "dependencies": {
         "react": "^16.12.0",
