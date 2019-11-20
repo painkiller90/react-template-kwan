@@ -1,0 +1,12 @@
+.react-table {
+    border-collapse: collapse;
+}
+
+.react-table tr td {
+    padding: .5em 1em .5em 1em;
+    border: 1px solid #ddd;
+}
+
+.react-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
