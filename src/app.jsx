@@ -7,7 +7,9 @@ export default class componentName extends Component {
     const { data } = this.props;
     return data.map((row) => (
       <tr key={row.id}>
-        {row.values.map((values, index) => (<td key={index}>{values}</td>))}
+        {row.values.map((values, index) => (
+          <td key={index}>{values}</td>
+        ))}
       </tr>
     ));
   }

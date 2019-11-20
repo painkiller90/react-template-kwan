@@ -13,7 +13,8 @@ const config = {
     output: {
         path: resolve(__dirname, 'build'),
         filename: '[name].js',
-        publicPath
+        publicPath,
+        libraryTarget: 'commonjs2'
     },
     resolve: {
         extensions: ['.js', '.jsx', '.ts', '.tsx', '.json']

@@ -2,7 +2,7 @@
     "name": "react-template-kwan",
     "version": "1.0.1",
     "description": "Basic react, webpack & babel boilerplate",
-    "main": "index.js",
+    "main": "build/index.js",
     "scripts": {
         "dev": "cross-env NODE_ENV=development webpack-dev-server --progress",
         "build": "cross-env NODE_ENV=production webpack --progress"
